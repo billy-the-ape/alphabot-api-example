@@ -1,8 +1,8 @@
 # alphabot-api-example
 
-Uses 
+A basic nodejs + express example of receiving and valdiating webhooks with the [Alphabot API](https://api.alphabot.app) for real-time data updates from [Alphabot.app](https://www.alphabot.app)
 
-Install [ngrok](https://ngrok.com/) or your own local web service engine to 
+Steps to run & receive webhook events locally:
 
 1. Copy `.env.local.example` and paste, removing `.example` from the file name
 2. Populate the `ALPHABOT_API_KEY` in the new file with your value from your [Alphabot profile](https://alphabot.app/#profile-developer)
